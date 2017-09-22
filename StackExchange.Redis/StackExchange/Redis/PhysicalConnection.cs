@@ -88,7 +88,7 @@ namespace StackExchange.Redis
 
         int failureReported;
 
-        byte[] ioBuffer = new byte[512];
+        byte[] ioBuffer = new byte[8192];
 
         int ioBufferBytes = 0;
 
